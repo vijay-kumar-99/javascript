@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>	
+			Signup and login
+		</title>
+	</head>
+	<style>
+		body{
+			font-family: sans-serif;
+			margin:0px;
+			padding: 0px;
+			color:white;
+		}
+		.home{
+			margin:20px;
+		}
+		.box{
+			width: 400px;;
+			background-color: rgba(0, 0, 0, 0.6);
+			position: absolute;
+			padding: 40px;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.6);
+			border-radius: 5px;
+		}
+		.box h2{
+			text-align: center;
+			color: white;
+		}
+		.box .details input{
+			margin-bottom: 30px;
+			width: 100%;
+			background: transparent;
+			border: none;
+			border-bottom: 1px solid #fff; 
+		}
+		.Loginbottom{
+			position: absolute;
+			color: black;
+			left:50%;
+			top:50%;
+			transform: translate(-50%,600%);
+			
+		}
+	</style>
+	<body>	
+		<div class="home">
+			<a href="Home.html">Home</a>
+		</div>
+		<div class="box">
+			<h2>SignUp</h2>
+			<form>
+				<div class="details">
+					<input type="text" placeholder="FirstName" name="" required="">
+					<label>FirstName</label>
+				</div>
+				<div class="details">
+					<input type="text" placeholder="SecondName" name="">
+					<label>SecondName</label>
+				</div>
+				<div class="details">
+					<input type="email" placeholder="example@domain" name="" required="">
+					<label>eMail</label>
+				</div>
+				<div class="Gender">
+					<input type="radio" name="" required="" value="F">
+					<input type="radio" name="" required="" value="M">
+					<label>Gender</label>
+				</div>
+				<div class="details">
+					<input type="number" placeholder="987654321" name="" required="">
+					<label>Mobile Number</label>
+				</div>
+				<div class="details">
+					<input type="password" name="" required="">
+					<label>Set Password</label>
+					<input type="password" name="" required="">
+					<label>Confirm Password</label>
+				</div>
+			</form>
+		</div>
+		<div class="Loginbottom">
+			<p>Already sign up? Click on <a href="Login.html">Login</a></p>
+		</div>
+		
+	</body>
+</html>
